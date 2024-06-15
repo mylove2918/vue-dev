@@ -23,6 +23,9 @@ const toggleActive = () => {
       당신의 userAgent 정보는
       <span class="fc-red fw-bold">{{ userAgent }}</span> 입니다.
     </p>
+    <footer class="fw-bold">
+      현재 페이지는 vue.js를 사용하여 제작 되었고, vite로 번들링 되었으며, gh-pages를 통해 github에 등록 되었습니다.
+    </footer>
   </div>
 </template>
 
